@@ -1,0 +1,74 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	font-family: 'Lobster', cursive;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #333333;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+.navbar-brand p {
+	color: white;
+	font-size: 20px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #00ff00;
+	color: black;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+	font-size: 42px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	height: 700px;
+	background-color: #333333;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 25px;
+	color: #00ff00;
+	font-family: 'Lobster', cursive;
+	overflow: hidden;
+}
+.row > div > article > h3 {
+	font-size: 30px;
+	margin-top: -8px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Oxygen', sans-serif;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
